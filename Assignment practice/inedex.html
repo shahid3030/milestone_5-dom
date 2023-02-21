@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geometry Genius</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/f74dcf8dc6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="m-6">
+    <div class="navbar bg-sky-50 rounded-md mt-6 me-4">
+      <div class="flex-1 px-6 ">
+        <h2 class="text-2xl"> <span class="text-4xl font-bold">Interactive</span> <br> <span class="">Geometry
+            Genius</span></h2>
+      </div>
+      <div class="flex-none px-6">
+        <button class=" bg-sky-500 rounded-md text-white font-semibold p-4 px-6 py-1">Blog
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="mt-12 flex px-6 gap-6">
+      <div class="grid grid-cols-1 lg:grid-cols-3 w-[70%] gap-4">
+        <div class="card w-96 bg-base-100 hover:bg-pink-300 border-2 w-full">
+          <figure class="px-10 pt-10">
+            <img src="images/triangle.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title mb-1">Triangle</h2>
+            <p class="mb-2">Area(A) = 0.5 <i class="fa-solid fa-xmark"></i> b <i class="fa-solid fa-xmark"></i> h </p>
+            <div class="inline-block space-x-1  mb-6">
+              <input class="bg-gray-200 w-1/3 px-2 rounded" type="text" name="" id="" placeholder="b">
+              <span>cm</span>
+              <input class="inline-block bg-gray-200 px-2 w-1/3 rounded " type="text" name="" id="" placeholder="h">
+              <span>cm</span>
+            </div>
+            <div class="card-actions">
+              <button class="bg-sky-500 rounded-md text-white font-semibold p-4 px-16 py-2 ">Calculate</button>
+            </div>
+          </div>
+        </div>
+        <div class="card w-96 bg-base-100 border w-full">
+          <figure class="px-10 pt-16">
+            <img src="images/rectangle.png" alt="" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title mb-1">Rectangle</h2>
+            <p class="mb-2">Area(A) = w <i class="fa-solid fa-xmark"></i> l </p>
+            <div class="inline-block space-x-1  mb-6">
+              <input class="bg-gray-200 w-1/3 px-2 rounded" type="text" name="" id="" placeholder="w">
+              <span>cm</span>
+              <input class="inline-block bg-gray-200 px-2 w-1/3 rounded " type="text" name="" id="" placeholder="l">
+              <span>cm</span>
+            </div>
+            <div class="card-actions">
+              <button class="bg-sky-500 rounded-md text-white font-semibold p-4 px-16 py-2 ">Calculate</button>
+            </div>
+          </div>
+        </div>
+        <div class="card w-96 bg-base-100 border w-full ">
+          <figure class="px-10 pt-16">
+            <img src="images/parallelogram.png" alt="" class="rounded-xl mb-2" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title mb-1">Parallelogram</h2>
+            <p class="mb-2">Area(A) = b <i class="fa-solid fa-xmark"></i> h </p>
+            <div class="inline-block space-x-1  mb-6">
+              <input class="bg-gray-200 w-1/3 px-2 rounded" type="text" name="" id="" placeholder="b">
+              <span>cm</span>
+              <input class="inline-block bg-gray-200 px-2 w-1/3 rounded " type="text" name="" id="" placeholder="h">
+              <span>cm</span>
+            </div>
+            <div class="card-actions">
+              <button class="bg-sky-500 rounded-md text-white font-semibold p-4 px-16 py-2 ">Calculate</button>
+            </div>
+          </div>
+        </div>
+        <div class="card w-96 bg-base-100 border w-full">
+          <figure class="px-10 pt-16">
+            <img src="images/rhombus.png" alt="" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title mb-1">Rhombus</h2>
+            <p class="mb-2">Area(A) = 0.5 <i class="fa-solid fa-xmark"></i> d <sub>1</sub> <i
+                class="fa-solid fa-xmark"></i> d <sub>2</sub> </p>
+            <div class="inline-block space-x-1 mb-6">
+              <input class="bg-gray-200 w-1/3 px-2 rounded" type="text" name="" id="" placeholder="d1">
+              <span>cm</span>
+              <input class="inline-block bg-gray-200 px-2 w-1/3 rounded " type="text" name="" id="" placeholder="d2">
+              <span>cm</span>
+            </div>
+            <div class="card-actions">
+              <button class="bg-sky-500 rounded-md text-white font-semibold p-4 px-16 py-2 ">Calculate</button>
+            </div>
+          </div>
+        </div>
+        <div class="card w-96 bg-base-100 border-2 w-full">
+          <figure class="px-10 pt-6">
+            <img src="images/pentagon.png" alt="" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title mb-1">Pentagon</h2>
+            <p class="mb-2">Area(A) = 0.5 <i class="fa-solid fa-xmark"></i> p <i class="fa-solid fa-xmark"></i> b </p>
+            <div class="inline-block space-x-1  mb-6">
+              <input class="bg-gray-200 w-1/3 px-2 rounded" type="text" name="" id="" placeholder="p">
+              <span>cm</span>
+              <input class="inline-block bg-gray-200 px-2 w-1/3 rounded " type="text" name="" id="" placeholder="b">
+              <span>cm</span>
+            </div>
+            <div class="card-actions">
+              <button class="bg-sky-500 rounded-md text-white font-semibold p-4 px-16 py-2 ">Calculate</button>
+            </div>
+          </div>
+        </div>
+        <div class="card w-96 bg-base-100 border-2 w-full">
+          <figure class="px-10 pt-16">
+            <img src="images/ellipse.png" alt="" class="rounded-xl mb-6" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title mb-1">Ellipse</h2>
+            <p class="mb-2">Area(A) = 3.14 <i class="fa-solid fa-xmark"></i> a <i class="fa-solid fa-xmark"></i> b
+            </p>
+            <div class="inline-block space-x-1  mb-6">
+              <input class="bg-gray-200 w-1/3 px-2 rounded" type="text" name="" id="" placeholder="a">
+              <span>cm</span>
+              <input class="inline-block bg-gray-200 px-2 w-1/3 rounded " type="text" name="" id="" placeholder="b">
+              <span>cm</span>
+            </div>
+            <div class="card-actions">
+              <button class="bg-sky-500 rounded-md text-white font-semibold p-4 px-16 py-2 ">Calculate</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="calculate-area w-[25%] mx-auto">
+        <h2 class="text-xl text-center font-bold underline">Area Calculation</h2>
+        <div class="overflow-x-auto">
+          <table class="table w-full">
+            <!-- head -->
+            <thead>
+              <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Job</th>
+                <th>Favorite Color</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- row 1 -->
+              <!-- <tr>
+                <th>1</th>
+                <td>Cy Ganderton</td>
+                <td>Quality Control Specialist</td>
+                <td>Blue</td>
+              </tr> -->
+     
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
